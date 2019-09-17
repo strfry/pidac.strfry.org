@@ -1,1 +1,2 @@
-dtoverlay=hifiberry-dacplus
+#dtoverlay=hifiberry-dacplus
+dtdebug=1

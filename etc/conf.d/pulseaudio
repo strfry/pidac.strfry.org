@@ -1,0 +1,3 @@
+PA_OPTS="--log-target=syslog"
+
+PULSEAUDIO_SHOULD_NOT_GO_SYSTEMWIDE=1
