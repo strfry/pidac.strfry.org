@@ -1,17 +1,5 @@
-#<<<<<<< HEAD
-#all: initrd-pidac
-#=======
-#hostname=$(shell hostname)
-#>>>>>>> 9ee4a1d... Makefile
-
 apkovl.tar.gz:
 	tar czf apkovl.tar.gz etc root boot
-
-
-#<<<<<<< HEAD
-#initrd-pidac:
-#	./apkovl.sh pidac
-#=======
 
 
 commit:
@@ -24,3 +12,11 @@ commit:
 tarball:
 	git diff-index HEAD
 	tar cf git.apkovl.tar.gz .
+
+
+
+#======= initrd.apkovl style =======
+#
+#hostname=$(shell hostname)
+#initrd-pidac:
+#	./apkovl.sh pidac
