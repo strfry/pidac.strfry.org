@@ -1,0 +1,12 @@
+auto lo
+iface lo inet loopback
+
+auto wlan0
+iface wlan0 inet dhcp
+	hostname localhost
+
+auto eth0
+iface eth0 inet manual
+	up ip link set $IFACE up
+	down ip link set $IFACE down
+

@@ -1,0 +1,5 @@
+alpine-base
+nano
+openssl
+wireless-tools
+wpa_supplicant
