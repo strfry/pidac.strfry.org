@@ -1,0 +1,13 @@
+bin/
+boot/
+dev/
+home/
+lib/
+media/
+proc/
+root/
+run/
+sbin/
+sys/
+usr/
+var/
