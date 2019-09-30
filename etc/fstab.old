@@ -1,0 +1,13 @@
+/dev/cdrom	/media/cdrom	iso9660	noauto,ro 0 0
+/dev/usbdisk	/media/usb	vfat	noauto,ro 0 0
+#/dev/sdb /media/sdb iso9660 	user,relatime,nojoliet,check=s,map=n,blocksize=2048 0 0
+
+#/dev/sda1	/media/sda1	ext4	noauto	0 0
+#/dev/sda1	/boot		ext4	ro	0 0
+
+
+/dev/sdb2 /media/sdb2 vfat ro,relatime,fmask=0022,dmask=0022,errors=remount-ro 0 0
+
+#/dev/vg0/home	/home		ext4	noauto	0 0
+
+alpine:/home	/home		nfs	noauto,user,soft	0 0
