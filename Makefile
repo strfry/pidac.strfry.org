@@ -22,4 +22,5 @@ commit:
 
 
 tarball:
-	git status
+	git diff-index HEAD
+	tar cf git.apkovl.tar.gz .
