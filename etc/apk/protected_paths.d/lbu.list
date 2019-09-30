@@ -1,2 +1,2 @@
--etc/resolv.conf
--etc/wpa_supplicant/wpa_supplicant.conf
+-etc/lbu/archive
+-etc/lvm/archive/
