@@ -23,12 +23,24 @@ tarball:
 
 #======= initrd.apkovl style =======
 #<<<<<<< HEAD
+#=======
+#<<<<<<< HEAD
+#>>>>>>> pidac
+#<<<<<<< HEAD
 #all: initrd-pidac
 #apkovl.tar.gz:
 #	tar czf apkovl.tar.gz etc root boot
 #=======
 #
 #hostname=$(shell hostname)
+#<<<<<<< HEAD
+#initrd-pidac:
+#	./apkovl.sh pidac
+#>>>>>>> localhost
+#>>>>>>> pidac
+#=======
+#=======
+#>>>>>>> localhost
 #initrd-pidac:
 #	./apkovl.sh pidac
 #>>>>>>> localhost
