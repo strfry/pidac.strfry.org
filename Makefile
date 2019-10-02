@@ -25,5 +25,5 @@ tarball:
 #hostname=$(shell hostname)
 #initrd-pidac:
 #	./apkovl.sh pidac
->>>>>>> localhost
->>>>>>> pidac
+#>>>>>>> localhost
+#>>>>>>> pidac
