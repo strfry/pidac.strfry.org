@@ -1,21 +1,28 @@
+
+hostname=$(shell hostname)
+
+LBU_BACKUPDIR=/etc/apk/cache/config-backups
+
 apkovl.tar.gz:
 	tar czf apkovl.tar.gz etc root boot
 
 
 commit:
+	echo TODO: Check if tree is clean
+	
 	lbu commit -d
-	tar xf $(hostname).apkovl.tar.gz
-	rm -i $(hostname).apkovl.tar.gz
+	tar xf $(LBU_BACKUPDIR)/$(hostname).apkovl.tar.gz
 	git status
 
 
 tarball:
 	git diff-index HEAD
-	tar cf git.apkovl.tar.gz .
+	tar ocf ../git.apkovl.tar.gz .
 
 
 
 #======= initrd.apkovl style =======
+#<<<<<<< HEAD
 #<<<<<<< HEAD
 #all: initrd-pidac
 #apkovl.tar.gz:
@@ -23,6 +30,8 @@ tarball:
 #=======
 #
 #hostname=$(shell hostname)
+#=======
+#>>>>>>> localhost
 #initrd-pidac:
 #	./apkovl.sh pidac
->>>>>>> localhost
+#>>>>>>> localhost
