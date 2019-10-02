@@ -9,6 +9,8 @@ dhcpcd
 file
 git
 less
+make
+man
 nano
 openssh
 openssl
