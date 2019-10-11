@@ -16,7 +16,7 @@ uucp:x:14:uucp
 man:x:15:man
 cron:x:16:cron
 console:x:17:
-audio:x:18:
+audio:x:18:pulse
 cdrom:x:19:
 dialout:x:20:root
 ftp:x:21:
@@ -50,3 +50,5 @@ chrony:x:101:chrony
 strfry:x:1000:
 pulse-access:x:102:
 pulse:x:103:pulse
+avahi:x:86:avahi
+messagebus:x:104:

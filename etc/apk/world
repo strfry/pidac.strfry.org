@@ -1,5 +1,7 @@
 alpine-base
+alsa-utils
 chrony
+dbus
 git
 less
 make
@@ -10,4 +12,7 @@ nano
 openssh
 openssl
 pulseaudio
+pulseaudio-alsa
 pulseaudio-openrc
+pulseaudio-zeroconf
+raspberrypi

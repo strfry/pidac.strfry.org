@@ -50,3 +50,5 @@ chrony:x:101:chrony
 strfry:x:1000:
 pulse-access:x:102:
 pulse:x:103:pulse
+avahi:x:86:avahi
+messagebus:x:104:messagebus
