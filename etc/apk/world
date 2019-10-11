@@ -14,5 +14,7 @@ openssl
 pulseaudio
 pulseaudio-alsa
 pulseaudio-openrc
+pulseaudio-utils
 pulseaudio-zeroconf
 raspberrypi
+tcpdump

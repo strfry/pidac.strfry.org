@@ -24,7 +24,7 @@ load-module module-stream-restore
 load-module module-card-restore
 
 #load-module module-detect
-load-module module-alsa-sink device_id=1
+#load-module module-alsa-sink device_id=1
 
 load-module module-native-protocol-unix
 load-module module-native-protocol-tcp auth-anonymous=1 
@@ -41,4 +41,6 @@ load-module module-rescue-streams
 
 load-module module-zeroconf-publish
 
-load-module module-alsa-card device_id=0
+load-module module-alsa-card device_id=1
+
+load-module module-rtp-recv
