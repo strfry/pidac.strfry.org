@@ -46,4 +46,7 @@ utmp:x:406:
 ping:x:999:
 nogroup:x:65533:
 nobody:x:65534:
-chrony:x:101:
+chrony:x:101:chrony
+strfry:x:1000:
+pulse-access:x:102:
+pulse:x:103:pulse
